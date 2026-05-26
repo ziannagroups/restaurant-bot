@@ -88,13 +88,13 @@ whatsapp-restaurant/
 Copy `.env.example` to `.env` and fill in:
 
 ```env
-TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxx
-TWILIO_AUTH_TOKEN=your_auth_token
+TWILIO_ACCOUNT_SID=AC61532c14e8e4922e90ec13c07f7fac33
+TWILIO_AUTH_TOKEN=850a8f1471bbe20e0fba9670295c7499
 TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
-MONGODB_URI=mongodb+srv://user:pass@cluster.mongodb.net/restaurant
-RESTAURANT_NAME=Spice & Flame Restaurant
-RESTAURANT_PHONE=+923001234567
-DASHBOARD_SECRET=make-this-a-long-random-string
+MONGODB_URI=mongodb+srv://restaurantuser:Admin@7860##@cluster0.gknd5lf.mongodb.net/?appName=Cluster0
+RESTAURANT_NAME=King Of China
+RESTAURANT_PHONE=+919082813528
+DASHBOARD_SECRET=wX3fT9qL2pR7nY5vB8mC1kA4dG6hJ9sQ
 PORT=3000
 ```
 
@@ -102,7 +102,7 @@ PORT=3000
 
 ## 🖥️ Dashboard API Reference
 
-All endpoints require `?secret=YOUR_DASHBOARD_SECRET` or
+All endpoints require `?secret=YwX3fT9qL2pR7nY5vB8mC1kA4dG6hJ9sQ` or
 `Authorization: Bearer YOUR_DASHBOARD_SECRET` header.
 
 ### List All Orders
